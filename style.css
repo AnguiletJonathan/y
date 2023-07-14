@@ -5,6 +5,10 @@ h1 {
 }
 
 header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-image: url('header.jpg');
     background-size: cover;
     background-position: center;
@@ -35,7 +39,20 @@ header {
 }
 
 .infini {
-    margin: 10;
     font-size: 24px;
     /* Vous pouvez ajuster la taille de la police selon vos besoins */
+}
+
+.cop {
+    color: red;
+}
+
+main {
+    margin-top: 120px;
+    margin-bottom: 0px;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
 }
