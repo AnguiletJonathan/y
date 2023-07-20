@@ -54,13 +54,16 @@ nav {
 }
 
 nav ul {
+    display: flex;
+    justify-content: space-between;
     list-style-type: none;
     margin: 0;
     padding: 10px;
 }
 
 nav ul li {
-    display: inline;
+    flex: 1;
+    text-align: center;
 }
 
 nav ul li a {
