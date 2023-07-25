@@ -1,0 +1,96 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-image: url('images/header.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100px;
+    color: white;
+    text-align: center;
+    padding-top: 10px;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotateY(0deg);
+    }
+
+    100% {
+        transform: rotateY(360deg);
+    }
+}
+
+.heart {
+    display: inline-block;
+    animation: rotate 3s linear infinite;
+    color: red;
+}
+
+.infini {
+    font-size: 24px;
+}
+
+.cop {
+    color: red;
+}
+
+nav {
+    background-color: #C0D5E4;
+    position: sticky;
+    top: 100px;
+    z-index: 1;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+}
+
+nav ul li {
+    flex: 1;
+    text-align: center;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    background-color: #999;
+}
+
+main {
+    text-align: center;
+}
+
+.imgnous {
+    height: 500px;
+}
+
+footer {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    text-align: center;
+    background-color: #a5cae5;
+    color: white;
+    padding: 20px;
+    font-size: 15px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
